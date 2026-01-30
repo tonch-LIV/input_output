@@ -23,15 +23,19 @@
     <script>
         let stranger = prompt('Howdy-do stranger, what\'s your name?');
         console.log('This stranger\'s name is ' + stranger + ' and is a stranger no more.');
-        alert('Welcome to this here site, ' + stranger + '.');
+        alert('Welcome to this here site, ' + stranger + '!');
 
         let dayNight = prompt(stranger + ', Do you think yourself an early riser or a night owl?');
-        console.log(stranger + ' considers themselves some sort of ' + dayNight + '.');
-        alert('So you see yourself as a ' + dayNight + ', type of person, huh? ' + stranger + '.');
+        console.log(stranger + ' considers themselves some sort of ' + dayNight + ' individual.');
+        alert('So you see yourself as a ' + dayNight + ', type of person huh, ' + stranger + '?');
 
         let dwelling = prompt('Alright ' + stranger + ', Do you prefer the inner city or the great outdoors?');
-        console.log(stranger + ' seems to prefer being in the ' + dwelling);
+        console.log('The ' + dwelling + ' seems to be the place for ' + stranger + ' to be.');
         alert('So ' + stranger + ', the ' + dayNight + ', you like being in the ' + dwelling + ' more.')
+
+        let taste = prompt('Alright ' + stranger + ', last one. If you had to choose one over the other; are you sweet or savory kinda fellow?')
+        console.log(stranger + ' the ' + dayNight + ', enjoys being in the ' + dwelling + ' and filling a plate with ' + taste + ' food.')
+        alert('Well ' + stranger + ', seems like if you could eat one kind of food all the time, it\'d be nothing but ' + taste + ' food on your plate, round the clock.')
     </script>
 </body>
 
