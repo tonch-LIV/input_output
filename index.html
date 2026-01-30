@@ -21,14 +21,17 @@
         &copy; Antonio G.P.@ ITTP 2026
     </footer>
     <script>
-        let stranger = prompt("Howdy-do stranger, what's your name?");
+        let stranger = prompt('Howdy-do stranger, what\'s your name?');
         console.log('This stranger\'s name is ' + stranger + ' and is a stranger no more.');
-        alert('Welcome to this here site ' + stranger + '.');
+        alert('Welcome to this here site, ' + stranger + '.');
 
-        let dayNight = prompt('Do you think yourself an early riser or a night owl?')
-        console.log(stranger + ' considers themselves some sort of a ' + dayNight + '.')
-        alert('So you see yourself as a ' + dayNight + ' type of person.')
+        let dayNight = prompt(stranger + ', Do you think yourself an early riser or a night owl?');
+        console.log(stranger + ' considers themselves some sort of ' + dayNight + '.');
+        alert('So you see yourself as a ' + dayNight + ' type of person, huh?' + stranger + '.');
 
+        let dwelling = prompt('Alright ' + stranger + ', Do you prefer the inner city or the great outdoors?');
+        console.log(stranger + ' seems to prefer being in the ' + dwelling);
+        alert('So ' + stranger + ', the ' + dayNight + ', you like being in the ' + dwelling + 'more.')
     </script>
 </body>
 
